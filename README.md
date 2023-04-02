@@ -9,10 +9,10 @@ This is a simple Chrome extension that allows you to generate a QR code for the 
 To install this extension, follow these steps:
 
 1. Clone the repository to your local machine using git clone https://github.com/JManzur/qr-code-chrome-extension
-2. Open Chrome and navigate to chrome://extensions.
-3. Turn on Developer mode in the top right corner.
-4. Click the "Load unpacked" button in the top left corner.
-5. Select the cloned directory and click "Open".
+2. Open Chrome and navigate to [chrome://extensions](chrome://extensions)
+3. Turn on Developer mode in the top right corner
+4. Click the "Load unpacked" button in the top left corner
+5. Select the cloned directory and click "Open"
 
 The extension should now be installed and the QR code button should be visible in your browser.
 
