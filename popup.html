@@ -3,6 +3,7 @@
 <head>
   <title>QR Code</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     body {
       margin: 0;
@@ -22,10 +23,15 @@
       font-size: 15px;
       font-family: 'Roboto', sans-serif;
     }
+    #download-button {
+      display: block;
+      margin: 10px auto;
+    }
   </style>
 </head>
 <body>
   <img id="qr-code" src="" alt="QR Code">
+  <a id="download-button" download="qrcode.png" class="btn btn-primary mt-3">Download</a>
   <script src="popup.js"></script>
   <footer>
     Application by: <a href="https://jmanzur.com" target="_blank">JManzur</a>
