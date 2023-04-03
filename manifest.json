@@ -1,6 +1,6 @@
 {
   "name": "QR Code Generator",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "description": "Generate QR codes for the current tab.",
   "icons": {
@@ -9,10 +9,9 @@
     "128": "javatar128.png"
   },
   "permissions": ["activeTab"],
-  "browser_action": {
+  "action": {
     "default_icon": "javatar16.png",
     "default_title": "Generate QR Code",
     "default_popup": "popup.html"
   }
 }
-
