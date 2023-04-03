@@ -1,7 +1,7 @@
 {
   "name": "QR Code Generator",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Generate QR codes for the current tab.",
   "icons": {
     "16": "javatar16.png",
